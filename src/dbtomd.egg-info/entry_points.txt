@@ -1,0 +1,2 @@
+[console_scripts]
+dbtomd = dbtomd.cli:main
