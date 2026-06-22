@@ -17,13 +17,7 @@ dbtomd db_type db_name output_file mode(default=1)
 This tool supports:
 - `db_type="mysql"`
 
-#### Modes
+## Output 
+In the output file, for each table, there will be a "summary" like this: 
 
-- `0`: The output is written like a markdown unordered list
-
-![](img/ol_view.png)
-
-- `1`: The output is written like a markdown table
-  
-![](img/table_view.png)
-  
+![alt text](table.png)
