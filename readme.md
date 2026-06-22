@@ -11,7 +11,7 @@ This simple python tool helps to create an agent friendly markdown file from rel
 ```bash
 export DB_USR="username"
 export DB_PSW="password"
-dbtomd db_type db_name output_file mode(default=1)
+dbtomd db_type db_name output_file 
 ```
 
 This tool supports:
