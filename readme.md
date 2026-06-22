@@ -4,7 +4,7 @@ This simple python script helps to create an agent friendly markdown file from a
 
 ## Installation
 
-`pip install git+https://github.com/TUO_USERNAME/dbtomd.git`
+`pip install git+https://github.com/Bilodev/dbtomd.git`
 
 ## Usage
 
@@ -15,9 +15,12 @@ dbtomd db_type db_name output_file mode(default=1)
 ```
 
 This tool supports:
-- `db_type="mysql"`
 
-## Output 
-In the output file, for each table, there will be a "summary" like this: 
+- `db_type="mysql"`
+- `db_type="sqlite"`
+
+## Output
+
+In the output file, for each table, there will be a "summary" like this:
 
 ![alt text](table.png)
