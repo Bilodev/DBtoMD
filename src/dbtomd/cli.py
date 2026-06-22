@@ -1,7 +1,7 @@
 import sys
 import os
-from providers.mysql import _mysql
-from providers.sqlite import _sqlite
+from .providers.mysql import _mysql
+from .providers.sqlite import _sqlite
 
 DB_USR = os.environ["DB_USR"]
 DB_PSW = os.environ["DB_PSW"]
